@@ -3,7 +3,7 @@ import AutonoMyLogo from "../../assets/images/autonomy-logo.svg";
 
 export default function Header() {
   return (
-    <header className="bg-white/[.95] flex justify-between items-center max-w-full py-5 px-20">
+    <header className="bg-white/[.95] flex justify-between items-center max-w-full py-5 px-20 after:content[''] after:object-bottom after:absolute after:w-full after:h-1 after:bg-black after:px-0 after:py-0 after:left-0 after:top-[5.5rem] after:bg-gradient-to-r from-rosa from-0% via-roxo via-40% to-ciano to-100%">
       <img
         src={AutonoMyLogo}
         type="svg"
