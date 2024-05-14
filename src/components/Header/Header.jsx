@@ -28,7 +28,7 @@ export default function Header() {
       </nav>
       <div className="gap-2.5 py-2.5 px-5 flex text-xl font-poppins-semibold">
         <button type="button">
-          <Link>Login</Link>
+          <Link to="/login">Login</Link>
         </button>
         <div className="bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% h-8 w-0.5"></div>
         <button type="button">
