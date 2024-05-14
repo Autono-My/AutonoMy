@@ -1,12 +1,19 @@
+// Import Funções
 import Header from "../../components/Header/Header";
-import Grafico from "../../assets/images/graph.png";
 import Card from "../../components/Card/Card";
+import Card1 from "../../components/Card/Card1";
+
+// Import Icones / Imagens
+import Grafico from "../../assets/images/graph.png";
 import Task from "../../assets/icons/Task.svg";
 import Pin from "../../assets/icons/Pin.svg";
 import Screen from "../../assets/icons/Screen.svg";
 import Youtube from "../../assets/icons/youtube.svg";
 import Instagram from "../../assets/icons/instagram.svg";
 import Linkedin from "../../assets/icons/linkedin.svg";
+import Calculator from "../../assets/icons/Calculator.svg";
+import Calendar from "../../assets/icons/Calendar.svg";
+import Graph from "../../assets/icons/Graph.svg";
 
 export default function Home() {
   return (
@@ -96,8 +103,29 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Third Section */}
         <section>
-          
+          <div className="px-20 py-28 w-screen bg-white/[.90] flex flex-col justify-center items-center font-poppins-extrabold gap-16">
+            <div>
+              <h2 className="size-fit text-[4rem] bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text ">
+                Principais funcionalidades!
+              </h2>
+            </div>
+            <div className="w-screen flex flex-row justify-center gap-10">
+              <Card1 icone={Calendar}/>
+              <Card1 icone={Graph}/>
+              <Card1 icone={Calculator}/>
+            </div>
+            <div>
+              <h2 className="size-fit text-[2.25rem] ">
+                Reunimos tudo que voce precisa em um so lugar<span className="bg-gradient-to-b from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text">!</span>
+              </h2>
+              <p className="text-center font-poppins-regular mt-4 text-lg">Cansado de usar diversas ferramentas diferentes somente para um proposito? <br />
+              Deixa que a gente resolve isso pra voce! <br />
+              Todas as ferramentas que voce precisa estao disponiveis <span className="bg-gradient-to-b from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text">aqui!</span></p>
+            </div>
+          </div>
         </section>
       </main>
     </>
