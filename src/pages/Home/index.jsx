@@ -2,6 +2,7 @@
 import Header from "../../components/Header/Header";
 import Card from "../../components/Card/Card";
 import Card1 from "../../components/Card/Card1";
+import Card2 from "../../components/Card/Card2";
 
 // Import Icones / Imagens
 import Grafico from "../../assets/images/graph.png";
@@ -17,6 +18,9 @@ import Graph from "../../assets/icons/Graph.svg";
 import GraphRGB from "../../assets/icons/GraphGradiente.svg";
 import CalendarRGB from "../../assets/icons/CalendarGradiente.svg";
 import CalculatorRGB from "../../assets/icons/CalculatorGradiente.svg";
+import Correct from "../../assets/icons/Correct.svg";
+import Wrong from "../../assets/icons/Wrong.svg";
+
 
 export default function Home() {
   return (
@@ -116,21 +120,35 @@ export default function Home() {
               </h2>
             </div>
             <div className="flex flex-row justify-center gap-10">
-              <Card1 icone={Calendar} iconeRGB={CalendarRGB} titulo="Calendario inteligente" desc="Datas, vendas e prazos importantes, nos te avisamos!"/>
-              <Card1 icone={Graph} iconeRGB={GraphRGB} titulo="Metricas e desempenho" desc="Acompanhe seu progresso, gastos, vendas e lucro!"/>
-              <Card1 icone={Calculator} iconeRGB={CalculatorRGB} titulo="Calculadora de custos" desc="Calcule seus gastos e precifique melhor os seus serviços e/ou seu negocio!"/>
+              <Card1 icone={Calendar} iconeRGB={CalendarRGB} titulo="Calendario inteligente" desc="Datas, vendas e prazos importantes, nos te avisamos!" />
+              <Card1 icone={Graph} iconeRGB={GraphRGB} titulo="Metricas e desempenho" desc="Acompanhe seu progresso, gastos, vendas e lucro!" />
+              <Card1 icone={Calculator} iconeRGB={CalculatorRGB} titulo="Calculadora de custos" desc="Calcule seus gastos e precifique melhor os seus serviços e/ou seu negocio!" />
             </div>
             <div>
               <h2 className="w-screen text-[2.25rem] text-center">
                 Reunimos tudo que voce precisa em um so lugar<span className="bg-gradient-to-b from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text">!</span>
               </h2>
               <p className="text-center font-poppins-regular mt-4 text-lg">Cansado de usar diversas ferramentas diferentes somente para um proposito? <br />
-              Deixa que a gente resolve isso pra voce! <br />
-              Todas as ferramentas que voce precisa estao disponiveis <span className="bg-gradient-to-b from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text">aqui!</span></p>
+                Deixa que a gente resolve isso pra voce! <br />
+                Todas as ferramentas que voce precisa estao disponiveis <span className="bg-gradient-to-b from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text">aqui!</span></p>
             </div>
           </div>
         </section>
-      </main>
+        <section>
+          <div class="px-20 py-28 w-screen bg-black/[.90] flex flex-col justify-center items-center font-poppins-extrabold gap-16">
+            <div>
+              <h2 className="size-fit text-[4rem] bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text ">
+                Planos por assinatura!
+              </h2>
+            </div>
+            <div className="flex flex-row gap-16">
+              <Card2 plano="Gratuito" valor="0,00" icone1={Correct} icone2={Wrong} icone3={Wrong} icone4={Wrong} />
+              <Card2 plano="Premium" valor="59,99" icone1={Correct} icone2={Correct} icone3={Correct} icone4={Wrong} />
+              <Card2 plano="Premium vitalício" valor="399,99" icone1={Correct} icone2={Correct} icone3={Correct} icone4={Correct} />
+            </div>
+          </div>
+        </section>
+      </main >
     </>
   );
 }
