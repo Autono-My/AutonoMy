@@ -15,8 +15,12 @@ export default {
       fontFamily: {
         'poppins-regular': ['Poppins-regular', 'sans-serif'],
         'poppins-semibold': ['Poppins-semibold', 'sans-serif'],
+        'poppins-bold': ['Poppins-bold', 'sans-serif'],
         'poppins-extrabold': ['Poppins-extrabold', 'sans-serif']
       },
+      backgroundImage: {
+        'login' : "url('/src/assets/Backgrounds/Loginbg.svg')",
+      }
     },
   },
   plugins: [],

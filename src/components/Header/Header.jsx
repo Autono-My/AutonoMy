@@ -32,7 +32,7 @@ export default function Header() {
         </button>
         <div className="bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% h-8 w-0.5"></div>
         <button type="button">
-          <Link>Cadastro</Link>
+          <Link to="/cadastro">Cadastro</Link>
         </button>
       </div>
     </header>
