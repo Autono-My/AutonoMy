@@ -45,8 +45,7 @@ export default function Home() {
               <p className="font-poppins-semibold text-pretty mb-3 text-cinza">
                 Vendas, datas, preços?
                 <br />
-                Dificuldades em gerenciar seu negócio <br />
-                autonômo?
+                Dificuldades em gerenciar seu negócio autonômo?
                 <br />
                 Nós podemos te ajudar!
               </p>
@@ -77,10 +76,10 @@ export default function Home() {
             <div className="w-screen flex flex-row justify-center gap-10">
               <Card
                 icone={Task}
-                texto="Gerencie seu negocio de forma simples e intuitiva"
+                texto="Gerencie seu negócio de forma simples e intuitiva"
               />
               <Card icone={Pin} texto="Tenha acesso a diversas ferramentas" />
-              <Card icone={Screen} texto="Todas as metricas que voce precisa" />
+              <Card icone={Screen} texto="Todas as métricas que você precisa" />
             </div>
 
             {/* Cards debaixo */}
@@ -120,17 +119,17 @@ export default function Home() {
               </h2>
             </div>
             <div className="flex flex-row justify-center gap-10">
-              <Card1 icone={Calendar} iconeRGB={CalendarRGB} titulo="Calendario inteligente" desc="Datas, vendas e prazos importantes, nos te avisamos!" />
-              <Card1 icone={Graph} iconeRGB={GraphRGB} titulo="Metricas e desempenho" desc="Acompanhe seu progresso, gastos, vendas e lucro!" />
-              <Card1 icone={Calculator} iconeRGB={CalculatorRGB} titulo="Calculadora de custos" desc="Calcule seus gastos e precifique melhor os seus serviços e/ou seu negocio!" />
+              <Card1 icone={Calendar} iconeRGB={CalendarRGB} titulo="Calendário inteligente" desc="Datas, vendas e prazos importantes, nós te avisamos!" />
+              <Card1 icone={Graph} iconeRGB={GraphRGB} titulo="Métricas e desempenho" desc="Acompanhe seu progresso, gastos, vendas e lucro!" />
+              <Card1 icone={Calculator} iconeRGB={CalculatorRGB} titulo="Calculadora de custos" desc="Calcule seus gastos e precifique melhor os seus serviços e/ou seu negócio!" />
             </div>
             <div>
               <h2 className="w-screen text-[2.25rem] text-center">
-                Reunimos tudo que voce precisa em um so lugar<span className="bg-gradient-to-b from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text">!</span>
+                Reunimos tudo que você precisa em um só lugar<span className="bg-gradient-to-b from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text">!</span>
               </h2>
-              <p className="text-center font-poppins-regular mt-4 text-lg">Cansado de usar diversas ferramentas diferentes somente para um proposito? <br />
-                Deixa que a gente resolve isso pra voce! <br />
-                Todas as ferramentas que voce precisa estao disponiveis <span className="bg-gradient-to-b from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text">aqui!</span></p>
+              <p className="text-center font-poppins-regular mt-4 text-lg">Cansado de usar diversas ferramentas diferentes para um proposito? <br />
+                Deixa que a gente resolve isso pra você! <br />
+                Todas as ferramentas que você precisa estao disponíveis <span className="bg-gradient-to-b from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text">aqui!</span></p>
             </div>
           </div>
         </section>

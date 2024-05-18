@@ -13,7 +13,7 @@ export default function Login() {
           <div className="w-[23.5rem] h-[3.25rem] bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% flex justify-center items-center rounded-[1.25rem]">
             <input
               type="text"
-              className="rounded-[calc(1.25rem-0.25rem)] bg-white w-[23rem] h-[2.75rem]"
+              className="p-2 rounded-[calc(1.25rem-0.25rem)] bg-white w-[23rem] h-[2.75rem]"
               required
             />
           </div>
@@ -21,7 +21,7 @@ export default function Login() {
           <div className="w-[23.5rem] h-[3.25rem] bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% flex justify-center items-center rounded-[1.25rem]">
             <input
               type="password"
-              className="rounded-[calc(1.25rem-0.25rem)] bg-white w-[23rem] h-[2.75rem]"
+              className="p-2 rounded-[calc(1.25rem-0.25rem)] bg-white w-[23rem] h-[2.75rem]"
               required
             />
           </div>
