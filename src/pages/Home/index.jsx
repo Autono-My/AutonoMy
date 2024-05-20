@@ -31,7 +31,7 @@ export default function Home() {
         {/* First section */}
         <section>
           <div className="bg-white/[.90] flex flex-row justify-between font-poppins-extrabold px-20 py-36">
-            <div className="flex flex-col justify-center items-start gap-2.5">
+            <div className="flex flex-col justify-start items-start gap-2.5">
               <div className="size-fit  leading-[4.5rem]">
                 <h2 className="text-[3.6rem]">
                   Controle,
@@ -50,14 +50,16 @@ export default function Home() {
                 <br />
                 Nós podemos te ajudar!
               </p>
-              <div className="bg-gradient-to-r from-rosa from-0% via-roxo via-40% to-ciano to-100% max-w-[425px] rounded-2xl py-1 px-1 hover:drop-shadow-[0_0_20px_rgba(255,255,255,0.25)]">
-                <button
-                  type="button"
-                  className="bg-white/[.90] py-[.5rem] px-32 rounded-[calc(1rem-0.25rem)] w-full transition-all duration-200 hover:bg-transparent hover:text-white hover:text-2xl"
-                >
-                  Conheça Já!
-                </button>
-              </div>
+                <div className="size-full place-content-center place-items-center">
+                  <div className="bg-gradient-to-r from-rosa from-0% via-roxo via-40% to-ciano to-100% max-w-[425px] rounded-2xl py-1 px-1 hover:drop-shadow-[0_0_20px_rgba(255,255,255,0.25)]">
+                    <button
+                      type="button"
+                      className="bg-white/[.90] py-[.5rem] px-32 rounded-[calc(1rem-0.25rem)] w-full transition-all duration-200 hover:bg-transparent hover:text-white hover:text-2xl"
+                    >
+                      Conheça Já!
+                    </button>
+                                </div>
+                </div>
             </div>
             <div className="">
               <img src={Grafico} alt="Gráfico" className="max-w-xl" />
@@ -68,7 +70,7 @@ export default function Home() {
         {/* Second Section */}
         <section className="h-[780px]">
           {/* Cards de cima */}
-          <div className="w-screen h-full bg-black/[.90] flex flex-col justify-center items-center font-poppins-extrabold gap-10">
+          <div id="plataforma" className="w-screen h-full bg-black/[.90] flex flex-col justify-center items-center font-poppins-extrabold gap-10">
             <div>
               <h2 className="size-fit text-[3rem] bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text ">
                 Dê uma olhada na plataforma!
