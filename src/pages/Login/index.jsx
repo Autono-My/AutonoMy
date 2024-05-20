@@ -1,4 +1,4 @@
-import AutonoMyLogo from "../../assets/images/autonomy-logo.svg";
+import AutonoMyLogo from "../../assets/images/autonomy-logo1.svg";
 import Computadores from "../../assets/images/Computer.svg";
 import Google from "../../assets/icons/Google.svg"
 import { Link } from "react-router-dom"

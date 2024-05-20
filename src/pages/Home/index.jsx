@@ -3,6 +3,7 @@ import Header from "../../components/Header/Header";
 import Card from "../../components/Card/Card";
 import Card1 from "../../components/Card/Card1";
 import Card2 from "../../components/Card/Card2";
+import { Link } from "react-router-dom";
 
 // Import Icones / Imagens
 import Grafico from "../../assets/images/graph.png";
@@ -31,14 +32,14 @@ export default function Home() {
         <section>
           <div className="bg-white/[.90] flex flex-row justify-between font-poppins-extrabold px-20 py-36">
             <div className="flex flex-col justify-center items-start gap-2.5">
-              <div>
-                <h2 className="size-fit text-[4rem] leading-[3.7rem] mb-2 ">
+              <div className="size-fit  leading-[4.5rem]">
+                <h2 className="text-[3.6rem]">
                   Controle,
                 </h2>
-                <h2 className="size-fit text-[4rem] leading-[3.7rem] mb-2 ">
+                <h2 className="text-[3.6rem]">
                   Gestão,
                 </h2>
-                <h2 className="size-fit text-[4rem] leading-[3.7rem] mb-2  bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text">
+                <h2 className="text-[4.5rem] bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text">
                   Autonomia.
                 </h2>
               </div>
@@ -49,10 +50,10 @@ export default function Home() {
                 <br />
                 Nós podemos te ajudar!
               </p>
-              <div className="bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% max-w-fit rounded-2xl py-1 px-1">
+              <div className="bg-gradient-to-r from-rosa from-0% via-roxo via-40% to-ciano to-100% max-w-[425px] rounded-2xl py-1 px-1 hover:drop-shadow-[0_0_20px_rgba(255,255,255,0.25)]">
                 <button
                   type="button"
-                  className="bg-white/[.90] py-[.5rem] px-6 rounded-[calc(1rem-0.25rem)] min-full"
+                  className="bg-white/[.90] py-[.5rem] px-32 rounded-[calc(1rem-0.25rem)] w-full transition-all duration-200 hover:bg-transparent hover:text-white hover:text-2xl"
                 >
                   Conheça Já!
                 </button>
@@ -65,18 +66,18 @@ export default function Home() {
         </section>
 
         {/* Second Section */}
-        <section>
+        <section className="h-[780px]">
           {/* Cards de cima */}
-          <div className="px-20 py-28 w-screen bg-black/[.90] flex flex-col justify-center items-center font-poppins-extrabold gap-10">
+          <div className="w-screen h-full bg-black/[.90] flex flex-col justify-center items-center font-poppins-extrabold gap-10">
             <div>
-              <h2 className="size-fit text-[4rem] bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text ">
-                Conheça a plataforma!
+              <h2 className="size-fit text-[3rem] bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text ">
+                Dê uma olhada na plataforma!
               </h2>
             </div>
-            <div className="w-screen flex flex-row justify-center gap-10">
+            <div className="w-[81rem] flex flex-row justify-center gap-10">
               <Card
                 icone={Task}
-                texto="Gerencie seu negócio de forma simples e intuitiva"
+                texto="Gerencie seu negócio de forma simples"
               />
               <Card icone={Pin} texto="Tenha acesso a diversas ferramentas" />
               <Card icone={Screen} texto="Todas as métricas que você precisa" />
@@ -84,22 +85,22 @@ export default function Home() {
 
             {/* Cards debaixo */}
             {/* Primeiro card */}
-            <div className="flex flex-row justify-center items-center h-[35rem] w-[81rem] gap-4">
+            <div className="flex flex-row justify-center items-center h-[27rem] w-[81rem] gap-10">
               <div className="bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% rounded-[2rem] h-full w-[7rem] p-1">
-                <div className="h-full w-full bg-black/[.30] rounded-[calc(2rem-0.25rem)] flex flex-col items-center justify-center gap-6">
+                <div className="h-full w-full bg-black/[.30] rounded-[calc(2rem-0.25rem)] flex flex-col items-center justify-center gap-14">
                   <a href="#">
-                    <img src={Linkedin} alt="" className="size-14" />
+                    <img src={Linkedin} alt="" className="size-12" />
                   </a>
                   <a href="#">
-                    <img src={Instagram} alt="" className="size-14" />
+                    <img src={Instagram} alt="" className="size-12" />
                   </a>
                   <a href="#">
-                    <img src={Youtube} alt="" className="size-14" />
+                    <img src={Youtube} alt="" className="size-12" />
                   </a>
                 </div>
               </div>
               {/* Segundo card */}
-              <div className="w-full h-full bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% rounded-[2rem] p-1 flex flex-row">
+              <div className="w-[65%] h-full bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% rounded-[2rem] p-1 flex flex-row">
                 <div className="w-full bg-black/[.30] rounded-[calc(2rem-0.25rem)] flex flex-col items-center justify-center gap-2">
                   <a href="#">
                     <img src={Youtube} alt="" className="size-20" />
@@ -111,10 +112,10 @@ export default function Home() {
         </section>
 
         {/* Third Section */}
-        <section>
-          <div className="px-20 py-28 w-screen bg-white/[.90] flex flex-col justify-center items-center font-poppins-extrabold gap-16">
+        <section className="h-[780px]">
+          <div className="w-screen h-full bg-white/[.90] flex flex-col justify-center items-center font-poppins-extrabold gap-10">
             <div>
-              <h2 className="size-fit text-[4rem] bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text ">
+              <h2 className="size-fit text-[3rem] bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text ">
                 Principais funcionalidades!
               </h2>
             </div>
@@ -123,20 +124,25 @@ export default function Home() {
               <Card1 icone={Graph} iconeRGB={GraphRGB} titulo="Métricas e desempenho" desc="Acompanhe seu progresso, gastos, vendas e lucro!" />
               <Card1 icone={Calculator} iconeRGB={CalculatorRGB} titulo="Calculadora de custos" desc="Calcule seus gastos e precifique melhor os seus serviços e/ou seu negócio!" />
             </div>
-            <div>
-              <h2 className="w-screen text-[2.25rem] text-center">
+            <div className="flex flex-col justify-center items-center font-poppins-semibold">
+              <h2 className="w-screen text-[2.25rem] text-center font-poppins-extrabold">
                 Reunimos tudo que você precisa em um só lugar<span className="bg-gradient-to-b from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text">!</span>
               </h2>
-              <p className="text-center font-poppins-regular mt-4 text-lg">Cansado de usar diversas ferramentas diferentes para um proposito? <br />
-                Deixa que a gente resolve isso pra você! <br />
-                Todas as ferramentas que você precisa estao disponíveis <span className="bg-gradient-to-b from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text">aqui!</span></p>
+              <p>Cansado de usar diversas ferramentas diferentes para um proposito?</p>
+              <p>Deixa que a gente resolve isso pra você!</p>
+              <div className="flex flex-row gap-1">
+                <p>Todas as ferramentas que você precisa estao disponíveis</p>
+                <Link>
+                  <p className="bg-gradient-to-b from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text font-poppins-extrabold ">aqui!</p>
+                </Link>
+              </div>
             </div>
           </div>
         </section>
-        <section>
-          <div class="px-20 py-28 w-screen bg-black/[.90] flex flex-col justify-center items-center font-poppins-extrabold gap-16">
+        <section className="h-[780px]">
+          <div className="w-screen h-full bg-black/[.90] flex flex-col justify-center items-center font-poppins-extrabold gap-10">
             <div>
-              <h2 className="size-fit text-[4rem] bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text ">
+              <h2 className="size-fit text-[3rem] bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text ">
                 Planos por assinatura!
               </h2>
             </div>
