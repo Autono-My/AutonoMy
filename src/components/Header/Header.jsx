@@ -18,7 +18,7 @@ export default function Header() {
       <nav>
         <ul className="bg-cinza bg-clip-text flex text-xl gap-16 font-poppins-semibold text-cinza hover:*:bg-gradient-to-r from-rosa from-0% via-roxo via-40% to-ciano to-100% *:transition-all *:duration-300 *:ease-in-out hover:*:text-transparent hover:*:bg-clip-text">
           <li>
-            <Link>Quem somos?</Link>
+            <Link to="/quemsomos">Quem somos?</Link>
           </li>
           <li>
             <a href="#plataforma">Plataforma</a>
