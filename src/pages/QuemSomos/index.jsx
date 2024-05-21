@@ -10,6 +10,7 @@ import Computer from "../../assets/images/ComputerCS.svg";
 // Icones
 import Graphic from "../../assets/icons/Graphic.svg";
 import Mission from "../../assets/icons/Mission.svg";
+import Chat from "../../assets/icons/Chat.svg";
 
 export default function QuemSomos() {
   return (
@@ -106,14 +107,14 @@ export default function QuemSomos() {
              
             </div>
             <div>
-              <Card3 icone={Graphic}
+              <Card3 icone={Chat}
               titulo="Valores" 
               texto="Ser um espaço acolhedor independente de gênero, deficiência, raça, etnia, origem, religião, condição econômica ou outros."/>
               
             </div>
           </div>
         </section>
-      </main>
+         </main>
     </>
   );
 }
