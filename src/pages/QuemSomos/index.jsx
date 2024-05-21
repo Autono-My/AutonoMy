@@ -25,7 +25,7 @@ export default function QuemSomos() {
                 <span className="bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% text-transparent bg-clip-text">My</span> surgiu?
               </h2>
               <p className="leading-10 text-[1.4rem] font-poppins-semibold text-pretty px-5 py-6">A <span className="text-[1.4rem] font-poppins-extrabold">Autono<span className="text-[1.4rem] bg-purple-900 text-transparent bg-clip-text">My</span>
-                </span>surgiu com o desejo de ajudar e auxiliar trabalhadores
+                </span> surgiu com o desejo de ajudar e auxiliar trabalhadores
                 autônomos. Com essa ideia em mente desenvolvemos uma plataforma
                 que junta todas as ferramentas necessárias para administrar e
                 gerenciar seu negócio em um só lugar.
