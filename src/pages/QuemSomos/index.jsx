@@ -20,7 +20,7 @@ export default function QuemSomos() {
       <main>
         {/* Primeira Section */}
         <section>
-          <div className="bg-white/[.90] flex flex-row justify-between font-poppins-extrabold px-16 py-16">
+          <div className="bg-white/[.90] flex flex-row justify-between font-poppins-extrabold px-16 py-24">
             <div className="flex flex-col justify-start items-start gap-2.5 text-[3rem]">
               <h2 className="px-5 py-5">
                 Como a Autono

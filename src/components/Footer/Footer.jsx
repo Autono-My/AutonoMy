@@ -5,11 +5,11 @@ export default function Footer() {
   return (
     <>
       <div className="bg-black flex flex-col items-center justify-center">
-        <div className="my-12">
-          <img className="py-4 px-72" src={AutonoMyFooter} alt="Logo" />
-          <div className="w-full bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% p-[1.4px]"></div>
+        <div className="my-6">
+          <img className="py-2 px-80" src={AutonoMyFooter} alt="Logo" />
+          <div className="w-full bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% p-[1px]"></div>
         </div>
-        <nav className="text-xl font-poppins-semibold text-white relative mb-10">
+        <nav className="text-xl font-poppins-semibold text-white relative mb-6">
           <ul className="flex gap-10">
             <li>
               <Link to="/">Início</Link>
