@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        "custom-purple": "#683171",
         "rosa": "#683171",
         "roxo": "#553882",
         "ciano": "#4591a1",
