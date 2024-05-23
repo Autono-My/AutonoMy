@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 
 export default function Login() {
   return (
-    <div className="bg-login size-full flex font-poppins-regular">
+    <div className="h-screen flex font-poppins-regular">
       <div className="bg-white flex flex-col py-[7.5rem] px-[9rem] rounded-r-[3.75rem] gap-20">
         <img src={AutonoMyLogo} alt="Logo"/>
         <form method="post" action="#" className="flex flex-col">
@@ -42,7 +42,7 @@ export default function Login() {
           </div>
         </form>
       </div>
-      <div className="flex justify-center items-center p-20">
+      <div className="flex justify-center items-center p-20 w-full">
         <img
           src={Computadores}
           alt="Imagem de mulher com computador"
