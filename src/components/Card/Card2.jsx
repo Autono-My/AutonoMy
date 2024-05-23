@@ -1,7 +1,7 @@
 export default function Card2(props) {
   return (
     <>
-      <div class="w-full px-4 mb-8 lg:mb-0 mx-auto max-w-[380px]">
+      <div class="bg-gradient-to-br from-rosa from-0% via-roxo via-40% to-ciano to-100% w-full p-1 mb-8 lg:mb-0 mx-auto max-w-[380px] rounded-[1.75rem]">
         <div class="max-w-sm lg:max-w-none mx-auto pt-10 px-10 pb-8 bg-gray-100 rounded-3xl">
           <div class="text-center mb-6">
             <h5 class="text-2xl font-semibold text-gray-800 mb-3">{props.plano}</h5>
