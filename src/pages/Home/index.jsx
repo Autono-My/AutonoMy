@@ -46,11 +46,11 @@ export default function Home() {
                 <br />
                 Nós podemos te ajudar!
               </p>
-              <div className="group size-full place-content-center place-items-center">
-                <div className="bg-gradient-to-r from-rosa from-0% via-roxo via-40% to-ciano to-100% max-w-[425px] rounded-2xl py-1 px-1 transition-all duration-200 ease-linear group-hover:p-[0.5rem] group-hover:drop-shadow-[0_0_20px_rgba(255,255,255,0.25)]">
+              <div className="group size-full place-content-center place-items-center flex justify-center pr-10">
+                <div className="bg-gradient-to-r from-rosa from-0% via-roxo via-40% to-ciano to-100% w-fit rounded-2xl py-1 px-1 transition-all duration-200 ease-linear group-hover:p-[0.5rem] group-hover:drop-shadow-[0_0_20px_rgba(255,255,255,0.25)]">
                   <button
                     type="button"
-                    className="bg-white/[.85] py-[.5rem] px-32 rounded-[calc(1rem-0.25rem)] w-full transition-all duration-200 ease-linear group-hover:bg-transparent group-hover:text-white group-hover:text-xl"
+                    className="bg-white/[.85] py-[.5rem] px-32 rounded-[calc(1rem-0.25rem)] w-fit transition-all duration-200 ease-linear group-hover:bg-transparent group-hover:text-white group-hover:text-xl"
                   >
                     Conheça Já!
                   </button>
